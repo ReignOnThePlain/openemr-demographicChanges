@@ -1,0 +1,623 @@
+Search "patient_data" (438 hits in 184 files)
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\assessment_intake\new.php (1 hits)
+	Line 20: <?php $res = sqlStatement("SELECT fname,mname,lname,ss,street,city,state,postal_code,phone_home,DOB FROM patient_data WHERE pid = $pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\assessment_intake\view.php (1 hits)
+	Line 25: <?php $res = sqlStatement("SELECT fname,mname,lname,ss,street,city,state,postal_code,phone_home,DOB FROM patient_data WHERE pid = $pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\chiro_history\new.php (1 hits)
+	Line 4: # $patient = formNanak("patient_data", $_GET["id"]);  
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\high_risk_screening_record\new.php (1 hits)
+	Line 40:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\high_risk_screening_record\printable.php (1 hits)
+	Line 34:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\high_risk_screening_record\report.php (1 hits)
+	Line 8:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\high_risk_screening_record\save.php (1 hits)
+	Line 53: sqlInsert("update patient_data set DOB='".$_POST['pbdate']."' where  id=$pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\high_risk_screening_record\view.php (1 hits)
+	Line 44:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\immunization_record\new.php (1 hits)
+	Line 42:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\immunization_record\printable.php (1 hits)
+	Line 30:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\immunization_record\report.php (1 hits)
+	Line 7:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\immunization_record\save.php (1 hits)
+	Line 62: sqlInsert("update patient_data set DOB='".$_POST['pbdate']."' where  id=$pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\immunization_record\view.php (1 hits)
+	Line 48:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\individual_treatment_plan\new.php (1 hits)
+	Line 19: <?php $res = sqlStatement("SELECT fname,mname,lname,ss,street,city,state,postal_code,phone_home,DOB FROM patient_data WHERE pid = $pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\individual_treatment_plan\view.php (1 hits)
+	Line 26: <?php $res = sqlStatement("SELECT fname,mname,lname,ss,street,city,state,postal_code,phone_home,DOB FROM patient_data WHERE pid = $pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\ippf_srh\new.php (1 hits)
+	Line 86:   "form_encounter AS fe, forms AS f, patient_data AS p WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\medical_decision\new.php (1 hits)
+	Line 50:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\medical_decision\printable.php (1 hits)
+	Line 19:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\medical_decision\report.php (1 hits)
+	Line 6:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\medical_decision\save.php (1 hits)
+	Line 39: sqlInsert("update patient_data set DOB='".$_POST['pbdate']."' where  id=$pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\medical_decision\view.php (1 hits)
+	Line 50:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\mh_therapy_progress\new.php (1 hits)
+	Line 20: <?php $res = sqlStatement("SELECT fname,mname,lname,ss,street,city,state,postal_code,phone_home,DOB FROM patient_data WHERE pid = $pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\mh_therapy_progress\view.php (1 hits)
+	Line 26: <?php $res = sqlStatement("SELECT fname,mname,lname,ss,street,city,state,postal_code,phone_home,DOB FROM patient_data WHERE pid = $pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\patient_intake_history\new.php (1 hits)
+	Line 47:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\patient_intake_history\printable.php (1 hits)
+	Line 36:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\patient_intake_history\report.php (1 hits)
+	Line 8:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\patient_intake_history\save.php (1 hits)
+	Line 92: sqlInsert("update patient_data set DOB='".$_POST['pbdate']."' where  id=$pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\patient_intake_history\view.php (1 hits)
+	Line 46:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\physical_examination\new.php (1 hits)
+	Line 67:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\physical_examination\printable.php (1 hits)
+	Line 38:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\physical_examination\report.php (1 hits)
+	Line 6:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\physical_examination\save.php (1 hits)
+	Line 39: sqlInsert("update patient_data set DOB='".$_POST['pbdate']."' where id=$pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\physical_examination\view.php (1 hits)
+	Line 96:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\physician_history\new.php (1 hits)
+	Line 42:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\physician_history\printable.php (1 hits)
+	Line 16:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\physician_history\report.php (1 hits)
+	Line 7:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\physician_history\save.php (1 hits)
+	Line 52: sqlInsert("update patient_data set DOB='".$_POST['pbdate']."' where  id=$pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\physician_history\view.php (1 hits)
+	Line 24:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\plist\new.php (1 hits)
+	Line 39:    $fres=sqlStatement("select * from patient_data where pid=".$_SESSION["pid"]);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\plist\printable.php (1 hits)
+	Line 33:    $fres=sqlStatement("select * from patient_data where pid=".$_SESSION["pid"]);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\plist\report.php (1 hits)
+	Line 9:    $fres=sqlStatement("select * from patient_data where pid=".$_SESSION["pid"]);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\plist\save.php (1 hits)
+	Line 52: sqlInsert("update patient_data set DOB='".$_POST['pbdate']."' where  id=$pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\plist\view.php (1 hits)
+	Line 48:    $fres=sqlStatement("select * from patient_data where pid=".$_SESSION["pid"]);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\routine_screening_record\new.php (1 hits)
+	Line 40:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\routine_screening_record\printable.php (1 hits)
+	Line 35:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\routine_screening_record\report.php (1 hits)
+	Line 6:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\routine_screening_record\save.php (1 hits)
+	Line 47: sqlInsert("update patient_data set DOB='".$_POST['pbdate']."' where  id=$pid");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\routine_screening_record\view.php (1 hits)
+	Line 44:    $fres=sqlStatement("select * from patient_data where pid='".$pid."'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\forms\well_child_care\C_WellChildCare.class.php (1 hits)
+	Line 23: 		$query="SELECT  TO_DAYS( CURDATE( ) ) - TO_DAYS( DOB ) AS alldays, date_format(from_days( TO_DAYS( CURDATE( ) ) - TO_DAYS( DOB ) ), \"%y-%c-%e\") AS age, sex FROM patient_data WHERE pid=$pid LIMIT 1";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\util\dupecheck\index.php (2 hits)
+	Line 102:     $sqlstmt = "select id, pid, fname, lname, dob, sex, ss from patient_data";
+	Line 129:                     " from patient_data where ";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\util\dupecheck\mergerecords.php (4 hits)
+	Line 20: $sqlstmt = "select pid from patient_data where id='".$parameters['masterid']."'";
+	Line 33:     $sqlstmt = "select lname, pid from patient_data where id='".$otherID."'";
+	Line 69:     //UpdateTable("patient_data", "pid", $otherID, $$parameters['masterid']);
+	Line 76:     $sqlstmt = "update patient_data set lname='".$newlname."' where pid='".$otherPID."'";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\contrib\util\import_mi2xml.php (4 hits)
+	Line 100: 	$query = "SELECT pid FROM patient_data WHERE pubpid LIKE '$pubpid'";
+	Line 144:     // Insert into patient_data.
+	Line 146:     $row = sqlQuery("SELECT max(pid)+1 AS pid FROM patient_data");
+	Line 727:   $query = "SELECT pid FROM patient_data WHERE pubpid LIKE '$pubpid'";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\controllers\C_Document.class.php (3 hits)
+	Line 436: 			$sql = "SELECT pid from patient_data where pubpid = '" . $file['patient_id'] . "'";
+	Line 521: 			// $sql = "SELECT pid from patient_data where pubpid = '" . $new_patient_id . "'";
+	Line 522: 			$sql = "SELECT pid from patient_data where pid = '" . $new_patient_id . "'";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\controllers\C_PatientFinder.class.php (1 hits)
+	Line 70: 		$sql = "SELECT CONCAT(lname, ' ', fname, ' ', mname) as name, DOB, pubpid, pid FROM patient_data";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\controllers\C_Prescription.class.php (3 hits)
+	Line 212: 			"patient_data AS pt WHERE rx.id = '$id' AND pt.pid = rx.patient_id");
+	Line 280: 		$res = sqlQuery("SELECT  concat(street,'\n',city,', ',state,' ',postal_code,'\n',if(phone_home!='',phone_home,if(phone_cell!='',phone_cell,if(phone_biz!='',phone_biz,'')))) addr from patient_data where pid =". mysql_real_escape_string ($p->patient->id));
+	Line 352:                 $res = sqlQuery("SELECT  concat(street,'\n',city,', ',state,' ',postal_code,'\n',if(phone_home!='',phone_home,if(phone_cell!='',phone_cell,if(phone_biz!='',phone_biz,'')))) addr from patient_data where pid =". mysql_real_escape_string ($p->patient->id));
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\custom\BillingExport.csv.php (1 hits)
+	Line 108:       "FROM patient_data AS p " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\custom\chart_tracker.php (1 hits)
+	Line 85:     "FROM patient_data AS pd " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\custom\export_labworks.php (1 hits)
+	Line 97:   "FROM patient_data AS p " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\custom\export_xml.php (1 hits)
+	Line 155:   "FROM patient_data AS p " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\custom\refercare.php (1 hits)
+	Line 16:  $query = "SELECT * FROM patient_data WHERE pid = '$pid' LIMIT 1";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\batchcom\batchcom.php (13 hits)
+	Line 23: $sort_by=Array (xl('Zip Code')=>'patient_data.postal_code',xl('Last Name')=>'patient_data.lname',xl('Appointment Date')=>'last_ap' );
+	Line 23: $sort_by=Array (xl('Zip Code')=>'patient_data.postal_code',xl('Last Name')=>'patient_data.lname',xl('Appointment Date')=>'last_ap' );
+	Line 51:                 SELECT DISTINCT patient_data.* , MAX( cal_events.pc_endDate ) AS last_ap, MAX( forms.date) AS last_visit, (DATEDIFF(CURDATE(),patient_data.DOB)/365.25) AS pat_age 
+	Line 51:                 SELECT DISTINCT patient_data.* , MAX( cal_events.pc_endDate ) AS last_ap, MAX( forms.date) AS last_visit, (DATEDIFF(CURDATE(),patient_data.DOB)/365.25) AS pat_age 
+	Line 52:                 FROM (patient_data, forms)  
+	Line 53:                 LEFT JOIN  openemr_postcalendar_events AS cal_events ON patient_data.pid=cal_events.pc_pid
+	Line 54:                 LEFT JOIN  forms AS forms2 ON patient_data.pid=forms2.pid
+	Line 81:             $sql.=" $and DATEDIFF( CURDATE( ), patient_data.DOB )/ 365.25 >= '".$_POST['age_from']."' ";
+	Line 85:             $sql.=" $and DATEDIFF( CURDATE( ), patient_data.DOB )/ 365.25 <= '".$_POST['age_upto']."' ";
+	Line 91:             $sql.=" $and patient_data.sex='".$_POST['gender']."' ";
+	Line 97:             $sql.=" $and patient_data.hipaa_mail='YES' ";
+	Line 103:                 $sql.=" $and patient_data.email IS NOT NULL ";
+	Line 108:         $sql.=' GROUP BY patient_data.pid';
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\batchcom\batch_phone_notification.php (1 hits)
+	Line 160: 			openemr_postcalendar_events as ope ,patient_data as pd 
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\billing\billing_report.php (1 hits)
+	Line 390: $ThisPageSearchCriteriaKeyMaster="form_encounter.date,billing.date,claims.process_time,claims.target,patient_data.fname,".
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\billing\edit_payment.php (1 hits)
+	Line 792: 					 	$res = sqlStatement("SELECT fname,lname,mname FROM patient_data	where pid ='$PId'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\billing\indigent_patients_report.php (1 hits)
+	Line 184:       "FROM form_encounter AS e, patient_data AS p, insurance_data AS i " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\billing\payment_master.inc.php (1 hits)
+	Line 119: 		$res = sqlStatement("SELECT fname,lname,mname FROM patient_data
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\billing\payment_pat_sel.inc.php (1 hits)
+	Line 53: 	$res = sqlStatement("SELECT fname,lname,mname FROM patient_data
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\billing\print_billing_report.php (1 hits)
+	Line 178: printRecDataOne($patient_data_array, getRecPatientData ($iter{"pid"}), $COLS);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\billing\search_payments.php (2 hits)
+	Line 158: 			$res = sqlStatement("SELECT fname,lname,mname FROM patient_data
+	Line 557: 										$res = sqlStatement("SELECT fname,lname,mname FROM patient_data
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\billing\sl_eob_invoice.php (2 hits)
+	Line 239:       "FROM form_encounter AS e, patient_data AS p WHERE " .
+	Line 459:     "from patient_data where pid = '$patient_id' limit 1");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\billing\sl_eob_patient_note.php (2 hits)
+	Line 32:     sqlStatement("UPDATE patient_data SET " .
+	Line 45:     "from patient_data where pid = '$patient_id' limit 1");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\billing\sl_eob_process.php (1 hits)
+	Line 192:           "FROM form_encounter AS e, patient_data AS p WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\billing\sl_eob_search.php (3 hits)
+	Line 144:       "FROM form_encounter AS f, patient_data AS p " .
+	Line 681:       "JOIN patient_data AS p ON p.pid = f.pid " .
+	Line 994:         "integration_mapping AS im, patient_data AS pd WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\drugs\dispense_drug.php (1 hits)
+	Line 139:   "prescriptions AS r, patient_data AS p, users AS u WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\eRx.php (2 hits)
+	Line 173:         sqlQuery("update patient_data set soap_import_status=1 where pid=?",array($pid));
+	Line 176:         sqlQuery("update patient_data set soap_import_status=3 where pid=?",array($pid));
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\eRx_xml.php (53 hits)
+	Line 589:     $patient_data=sqlQuery("select *, DATE_FORMAT(DOB,'%Y%m%d') AS date_of_birth from patient_data where pid=?",array($pid));
+	Line 589:     $patient_data=sqlQuery("select *, DATE_FORMAT(DOB,'%Y%m%d') AS date_of_birth from patient_data where pid=?",array($pid));
+	Line 591:     $b->setAttribute('ID',$patient_data['pid']);
+	Line 593:         $patient_data['lname']=stripSpecialCharacter($patient_data['lname']);    
+	Line 593:         $patient_data['lname']=stripSpecialCharacter($patient_data['lname']);    
+	Line 594:         $patient_data['lname']=trimData($patient_data['lname'],35);
+	Line 594:         $patient_data['lname']=trimData($patient_data['lname'],35);
+	Line 595:         //$msg = validation(xl('Patient Last name'),$patient_data['lname'],$msg);
+	Line 596:         if($patient_data['lname']=='')
+	Line 600:             $doc->createTextNode( $patient_data['lname'] )
+	Line 603:         $patient_data['fname']=stripSpecialCharacter($patient_data['fname']);
+	Line 603:         $patient_data['fname']=stripSpecialCharacter($patient_data['fname']);
+	Line 604:         $patient_data['fname']=trimData($patient_data['fname'],35);
+	Line 604:         $patient_data['fname']=trimData($patient_data['fname'],35);
+	Line 605:         //$msg = validation(xl('Patient First name'),$patient_data['fname'],$msg);
+	Line 606:         if($patient_data['fname']=='')
+	Line 610:             $doc->createTextNode( $patient_data['fname'] )
+	Line 613:         $patient_data['mname']=stripSpecialCharacter($patient_data['mname']);
+	Line 613:         $patient_data['mname']=stripSpecialCharacter($patient_data['mname']);
+	Line 614:         $patient_data['mname']=trimData($patient_data['mname'],35);
+	Line 614:         $patient_data['mname']=trimData($patient_data['mname'],35);
+	Line 617:             $doc->createTextNode( $patient_data['mname'] )
+	Line 622:         $patient_data['street']=stripSpecialCharacter($patient_data['street']);
+	Line 622:         $patient_data['street']=stripSpecialCharacter($patient_data['street']);
+	Line 623:         $patient_data['street']=trimData($patient_data['street'],35);
+	Line 623:         $patient_data['street']=trimData($patient_data['street'],35);
+	Line 624:         $msg = validation(xl('Patient Address'),$patient_data['street'],$msg);
+	Line 625:         if(trim($patient_data['street'])=='')
+	Line 629:             $doc->createTextNode( $patient_data['street'] )
+	Line 632:         //$msg = validation(xl('Patient City'),$patient_data['city'],$msg);
+	Line 633:         if($patient_data['city']=='')
+	Line 637:             $doc->createTextNode( $patient_data['city'] )
+	Line 640:         if($patient_data['state']){
+	Line 643:             $doc->createTextNode( $patient_data['state'] )
+	Line 647:         if($patient_data['postal_code']){
+	Line 650:             $doc->createTextNode( $patient_data['postal_code'] )
+	Line 654:         //$msg = validation(xl('Patient Country'),$patient_data['country_code'],$msg);
+	Line 655:         if(trim($patient_data['country_code'])=='' && $GLOBALS['erx_default_patient_country']=='')
+	Line 657:         elseif(trim($patient_data['country_code'])=='')
+	Line 658:             $patient_data['country_code'] = $GLOBALS['erx_default_patient_country'];
+	Line 659:         $county_code = substr($patient_data['country_code'],0,2);
+	Line 667:         $patient_data['phone_home']=stripPhoneSlashes($patient_data['phone_home']);
+	Line 667:         $patient_data['phone_home']=stripPhoneSlashes($patient_data['phone_home']);
+	Line 668:         if($patient_data['phone_home']){
+	Line 671:             $doc->createTextNode( $patient_data['phone_home'] )
+	Line 677:         if(trim($patient_data['date_of_birth'])=='' || $patient_data['date_of_birth']=='00000000')
+	Line 677:         if(trim($patient_data['date_of_birth'])=='' || $patient_data['date_of_birth']=='00000000')
+	Line 679:         if($patient_data['date_of_birth'] && $patient_data['date_of_birth']!='00000000'){        
+	Line 679:         if($patient_data['date_of_birth'] && $patient_data['date_of_birth']!='00000000'){        
+	Line 682:             $doc->createTextNode( $patient_data['date_of_birth'] )
+	Line 686:         if(trim($patient_data['sex'])=='')
+	Line 688:         if($patient_data['sex']){
+	Line 689:         $gender_val=substr($patient_data['sex'],0,1);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\forms\CAMOS\content_parser.php (1 hits)
+	Line 219: 		"from patient_data as t1 join form_encounter as t2 on " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\forms\CAMOS\new.php (2 hits)
+	Line 1286:   $query = sqlStatement("select pid from patient_data where fname like '$name1' or fname like '$name2' or " .
+	Line 1308:     "from patient_data as t1 join forms as t2 on (t1.pid = t2.pid) where t2.form_id=$form_id " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\forms\CAMOS\notegen.php (1 hits)
+	Line 363: 		"join patient_data as t3 on " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\forms\CAMOS\rx_print.php (1 hits)
+	Line 42: $query = sqlStatement("select fname,lname,street,city,state,postal_code,phone_home,DATE_FORMAT(DOB,'%m/%d/%y') as DOB from patient_data where pid =" . $_SESSION['pid']);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\forms\fee_sheet\new.php (10 hits)
+	Line 105:         "FROM patient_data, prices WHERE " .
+	Line 106:         "patient_data.pid = '$pid' AND " .
+	Line 109:         "prices.pr_level = patient_data.pricelevel " .
+	Line 388:   sqlStatement("UPDATE patient_data SET pricelevel = '" .
+	Line 595:     sqlStatement("UPDATE patient_data SET contrastart = '" .
+	Line 1085:         "FROM patient_data, prices WHERE " .
+	Line 1086:         "patient_data.pid = '$pid' AND " .
+	Line 1089:         "prices.pr_level = patient_data.pricelevel " .
+	Line 1155:       "FROM patient_data WHERE " .
+	Line 1186:   $trow = sqlQuery("SELECT pricelevel FROM patient_data WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\forms\LBF\new.php (1 hits)
+	Line 236:       "form_encounter AS fe, forms AS f, patient_data AS p WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\forms\procedure_order\new.php (1 hits)
+	Line 93:   "form_encounter AS fe, forms AS f, patient_data AS p WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\forms\vitals\C_FormVitals.class.php (2 hits)
+	Line 54:     	$patient_data = getPatientData($GLOBALS['pid']);
+	Line 55:         $patient_age = getPatientAge($patient_data['DOB']);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\forms\vitals\growthchart\chart.php (11 hits)
+	Line 47: $patient_data = "";
+	Line 49:     $patient_data = getPatientData($pid, "fname, lname, sex, DATE_FORMAT(DOB,'%Y%m%d') as DOB");
+	Line 50:     $nowAge = getPatientAge($patient_data['DOB']); 
+	Line 51:     $dob = $patient_data['DOB'];
+	Line 52:     $name = $patient_data['fname'] ." ".$patient_data['lname'];
+	Line 52:     $name = $patient_data['fname'] ." ".$patient_data['lname'];
+	Line 63:     $tmpAge = getPatientAgeInDays($patient_data['DOB'], $date);
+	Line 207:     if (preg_match('/^male/i', $patient_data['sex'])) { 
+	Line 214:     elseif (preg_match('/^female/i', $patient_data['sex'])) { 
+	Line 259:     if (preg_match('/^male/i', $patient_data['sex'])) { 
+	Line 266:     elseif (preg_match('/^female/i', $patient_data['sex'])) { 
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\forms\vitals\report.php (2 hits)
+	Line 9:     $patient_data = getPatientData($GLOBALS['pid']);
+	Line 10:     $patient_age = getPatientAge($patient_data['DOB']);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\main\authorizations\authorizations.php (1 hits)
+	Line 213:       "select providerID from patient_data where pid=?", array($ppid) ));
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\main\calendar\add_edit_event.php (2 hits)
+	Line 115: 			 sqlStatement("UPDATE patient_data SET DOB = '$patient_dob' WHERE " .
+	Line 721:    "FROM patient_data WHERE pid = '" . $patientid . "'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\main\calendar\modules\PostCalendar\common.api.php (4 hits)
+	Line 1032:         $patient_data = getPatientData($event_pid, $given = "lname, fname");
+	Line 1033:         $event_patient_name = $patient_data['lname'].", ".$patient_data['fname'];
+	Line 1033:         $event_patient_name = $patient_data['lname'].", ".$patient_data['fname'];
+	Line 1474:             LEFT JOIN patient_data as pd ON (pd.pid = e.pc_pid)
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\main\calendar\modules\PostCalendar\pnuserapi.php (2 hits)
+	Line 763:     "LEFT JOIN patient_data as pd ON a.pc_pid=pd.pid " .
+	Line 994:     "LEFT JOIN patient_data as pd ON a.pc_pid = pd.pid " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\main\calendar\new_patient_save.php (3 hits)
+	Line 19: if ($result = sqlQuery("select * from patient_data where lower(fname)=lower('".$_POST["fname"]."') and lower(lname)=lower('".$_POST["lname"]."')")) {
+	Line 24:     sqlStatement("lock tables patient_data read");
+	Line 26:     $result = sqlQuery("select max(pid)+1 as pid from patient_data");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\main\finder\patient_select.php (2 hits)
+	Line 164:       "b.pid = patient_data.pid AND " .
+	Line 172:   $sql = "SELECT $given FROM patient_data " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\main\ippf_export.php (3 hits)
+	Line 369:     "LEFT OUTER JOIN patient_data AS p ON p.pid = fe.pid WHERE " .
+	Line 382:     "LEFT OUTER JOIN patient_data AS p ON p.pid = fe.pid WHERE " .
+	Line 416:     "LEFT OUTER JOIN patient_data AS p ON p.pid = fe.pid WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\main\messages\messages.php (6 hits)
+	Line 136:                 "FROM patient_data WHERE pid = ?", array($reply_to) );
+	Line 244:    "FROM patient_data WHERE pid = ?", array($reply_to) );
+	Line 369:     $sort = array("users.lname", "patient_data.lname", "pnotes.title", "pnotes.date", "pnotes.message_status");
+	Line 442:             $patient = $myrow['patient_data_lname'];
+	Line 443:             if ($myrow['patient_data_fname']) {
+	Line 444:                 $patient .= ", " . $myrow['patient_data_fname'];
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\new\new_comprehensive_save.php (7 hits)
+	Line 16:   $result = sqlQuery("SELECT count(*) AS count FROM patient_data WHERE " .
+	Line 30: // sqlStatement("lock tables patient_data read");
+	Line 32: $result = sqlQuery("SELECT MAX(pid)+1 AS pid FROM patient_data");
+	Line 45: // Update patient_data and employer_data:
+	Line 48: $newdata['patient_data' ] = array();
+	Line 58:   $tblname   = 'patient_data';
+	Line 71: updatePatientData($pid, $newdata['patient_data'], true);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\new\new_patient_save.php (4 hits)
+	Line 8:   $result = sqlQuery("SELECT count(*) AS count FROM patient_data WHERE " .
+	Line 22: sqlStatement("lock tables patient_data read");
+	Line 24: $result = sqlQuery("select max(pid)+1 as pid from patient_data");
+	Line 124:     sqlQuery("UPDATE patient_data SET referral_source = '$refsource' " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\new\new_search_popup.php (1 hits)
+	Line 158:   "FROM patient_data WHERE $where " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\orders\lab_exchange_tools.php (1 hits)
+	Line 15:     $sql = "SELECT pid from patient_data WHERE ";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\orders\orders_results.php (1 hits)
+	Line 422:   "LEFT JOIN patient_data AS pd ON pd.pid = po.patient_id $joins " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\orders\pending_followup.php (1 hits)
+	Line 166:     "JOIN patient_data AS pd ON pd.pid = po.patient_id " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\orders\pending_orders.php (1 hits)
+	Line 153:     "JOIN patient_data AS pd ON pd.pid = po.patient_id " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\orders\procedure_stats.php (1 hits)
+	Line 402:       "JOIN patient_data AS pd ON pd.pid = po.patient_id $sexcond" .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\deleter.php (3 hits)
+	Line 176:    $row = sqlQuery("SELECT id FROM patient_data WHERE pid = '$patient'");
+	Line 177:    row_delete("integration_mapping", "local_table = 'patient_data' AND " .
+	Line 192:    row_delete("patient_data", "pid = '$patient'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\encounter\cash_receipt.php (1 hits)
+	Line 136:     printRecDataOne($patient_data_array, getRecPatientData ($pid), $N);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\encounter\search_code.php (3 hits)
+	Line 62:     "LEFT OUTER JOIN patient_data ON patient_data.pid = '$pid' " .
+	Line 62:     "LEFT OUTER JOIN patient_data ON patient_data.pid = '$pid' " .
+	Line 65:     "prices.pr_level = patient_data.pricelevel " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\front_payment.php (1 hits)
+	Line 183:   "FROM patient_data AS p " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\letter.php (1 hits)
+	Line 56:   "FROM patient_data AS p " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\pos_checkout.php (2 hits)
+	Line 105:     "LEFT JOIN patient_data as pd on im.local_id=pd.id " .
+	Line 108:     "' and im.local_table='patient_data' and im.foreign_table='customer'";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\reminder\patient_reminders.php (2 hits)
+	Line 134:   "FROM `patient_reminders` as a, `patient_data` as b " .
+	Line 240:         "FROM `patient_reminders` as a, `patient_data` as b " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\report\custom_report.php (1 hits)
+	Line 146:             // printRecDataOne($patient_data_array, getRecPatientData ($pid), $N);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\report\full_report.php (1 hits)
+	Line 50: printRecData($patient_data_array, getRecPatientData ($pid), $N);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\report\print_custom_report.php (1 hits)
+	Line 123:     printRecDataOne($patient_data_array, getRecPatientData ($pid), $N);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\rules\patient_data.php (11 hits)
+	Line 62:  var f = document.forms['patient_data'];
+	Line 88:   // Save that form as a row in rule_patient_data table
+	Line 100:     // Insert new row of data into rule_patient_data table
+	Line 101:     sqlInsert("INSERT INTO `rule_patient_data` (`date`, `pid`, `category`, `item`, `complete`, `result`) " .
+	Line 105:     // Modify selected row in rule_patient_data table
+	Line 106:     sqlStatement("UPDATE `rule_patient_data` " .
+	Line 129:     "FROM `rule_patient_data` " .
+	Line 147: <form action='patient_data.php' name='patient_data' method='post' onsubmit='return top.restoreSession()'>
+	Line 147: <form action='patient_data.php' name='patient_data' method='post' onsubmit='return top.restoreSession()'>
+	Line 192:   "FROM `rule_patient_data` " .
+	Line 222:         echo "<td><a href='patient_data.php?category=" .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\summary\advancedirectives.php (2 hits)
+	Line 39: 	sqlQuery("UPDATE patient_data SET completed_ad='".formData('form_yesno','P',true)."', ad_reviewed='".formData('form_adreviewed','P',true)."' where pid='$pid'");
+	Line 47: 	$sql = "select completed_ad, ad_reviewed from patient_data where pid='$pid'";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\summary\create_portallogin.php (3 hits)
+	Line 46:  $row = sqlQuery("SELECT pd.*,pao.portal_username,pao.portal_pwd,pao.portal_pwd_status FROM patient_data AS pd LEFT OUTER JOIN patient_access_" . add_escape_custom($portalsite) . "site AS pao ON pd.pid=pao.pid WHERE pd.pid=?",array($pid));
+	Line 94:     $patientData = sqlQuery("SELECT * FROM `patient_data` WHERE `pid`=?", array($patient_id) );
+	Line 128:     $patientData = sqlQuery("SELECT * FROM `patient_data` WHERE `pid`=?", array($patient_id) );
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\summary\demographics.php (5 hits)
+	Line 235: 		//$soap_status=sqlQuery("select soap_import_status from patient_data where pid=?",array($pid));
+	Line 236: 		$soap_status=sqlStatement("select soap_import_status,pid from patient_data where pid=? and soap_import_status in ('1','3')",array($pid));
+	Line 449:     $portalStatus = sqlQuery("SELECT allow_patient_portal FROM patient_data WHERE pid=?",array($pid));
+	Line 465:     $portalStatus = sqlQuery("SELECT allow_patient_portal FROM patient_data WHERE pid=?",array($pid));
+	Line 1099: 		sqlStatement("UPDATE patient_data SET fitness = ?, " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\summary\demographics_save.php (4 hits)
+	Line 27: // Update patient_data and employer_data:
+	Line 30: $newdata['patient_data']['id'] = $_POST['db_id'];
+	Line 39:   $table = 'patient_data';
+	Line 50: updatePatientData($pid, $newdata['patient_data']);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\summary\pnotes.php (1 hits)
+	Line 81:     "from patient_data where pid = ? limit 1";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\summary\pnotes_fragment.php (1 hits)
+	Line 54:      "FROM patient_data WHERE pid = ?", array($pid) );
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\summary\pnotes_full.php (2 hits)
+	Line 137:  "FROM patient_data WHERE pid = ?", array($pid) );
+	Line 254:     "from patient_data where pid = ? limit 1";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\summary\pnotes_full_add.php (1 hits)
+	Line 118:  "FROM patient_data WHERE pid = ?", array($pid) );
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\patient_file\summary\shot_record.php (2 hits)
+	Line 26:                 " from patient_data p where p.pid = ?", array($pid)
+	Line 40:             " left join patient_data p on i1.patient_id = p.pid ".
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\absences_report.php (2 hits)
+	Line 152:         "FROM patient_data AS pd " .
+	Line 243:     "JOIN patient_data AS pd ON pd.pid = lists.pid " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\appt_encounter_report.php (2 hits)
+	Line 99:    "LEFT OUTER JOIN patient_data AS p ON p.pid = e.pc_pid " .
+	Line 125:    "LEFT OUTER JOIN patient_data AS p ON p.pid = fe.pid " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\charts_checked_out.php (2 hits)
+	Line 62:   "LEFT OUTER JOIN patient_data AS p ON p.pid = ct.ct_pid " .
+	Line 81:   "LEFT OUTER JOIN patient_data AS p ON p.pid = ct.ct_pid " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\chart_location_activity.php (2 hits)
+	Line 63:   $query = "SELECT pid, pubpid, fname, mname, lname FROM patient_data WHERE " .
+	Line 75:   $query = "SELECT pid, pubpid, fname, mname, lname FROM patient_data WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\clinical_reports.php (1 hits)
+	Line 391: 	$sqlstmt=$sqlstmt." from patient_data as pd left outer join users as u on u.id = pd.providerid
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\collections_report.php (3 hits)
+	Line 141:       sqlStatement("UPDATE patient_data SET " .
+	Line 532:       "JOIN patient_data AS p ON p.pid = f.pid " .
+	Line 871:         "integration_mapping AS im, patient_data AS pd " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\custom_report_range.php (1 hits)
+	Line 262:         printRecDataOne($patient_data_array, getRecPatientData ($pids[$iCounter]), $N);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\edi_270.php (1 hits)
+	Line 109: 							LEFT JOIN patient_data AS p ON p.pid = e.pc_pid
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\encounters_report.php (1 hits)
+	Line 62:   "LEFT OUTER JOIN patient_data AS p ON p.pid = fe.pid " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\football_injury_report.php (2 hits)
+	Line 344: 			"JOIN patient_data AS pd ON pd.pid = lists.pid AND ( $squadmatches ) " .
+	Line 359:       "JOIN patient_data AS pd ON pd.pid = lists.pid AND ( $squadmatches ) " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\front_receipts_report.php (1 hits)
+	Line 178:     "LEFT OUTER JOIN patient_data AS p ON " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\immunization_report.php (1 hits)
+	Line 109:   "from immunizations i, patient_data p, codes c ".
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\injury_overview_report.php (1 hits)
+	Line 197: 			"JOIN patient_data AS pd ON pd.pid = lists.pid AND ( $squadmatches ) " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\inventory_transactions.php (1 hits)
+	Line 354:     "LEFT JOIN patient_data AS p ON p.pid = s.pid " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\ippf_daily.php (1 hits)
+	Line 190:     "JOIN patient_data AS pd ON pd.pid = fe.pid " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\ippf_statistics.php (5 hits)
+	Line 1225:         "JOIN patient_data AS pd ON pd.pid = ds.pid $sexcond" .
+	Line 1296:         "JOIN patient_data AS pd ON pd.pid = t.pid $sexcond" .
+	Line 1317:         "JOIN patient_data AS pd ON pd.pid = l.pid $sexcond" .
+	Line 1341:         "JOIN patient_data AS pd ON pd.pid = ds.pid $sexcond" .
+	Line 1381:         "JOIN patient_data AS pd ON pd.pid = fe.pid $sexcond" .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\non_reported.php (1 hits)
+	Line 68:   "from lists l, patient_data p, codes c ".
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\old_players_report.php (1 hits)
+	Line 32:   "patient_data"; // ORDER BY squad, lname, fname
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\patient_list.php (1 hits)
+	Line 174:    "FROM patient_data AS p ";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\players_report.php (1 hits)
+	Line 59: $query = "SELECT pid, squad, fitness, lname, fname FROM patient_data";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\players_report_dialog.php (1 hits)
+	Line 66:   "FROM patient_data " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\prescriptions_report.php (1 hits)
+	Line 224:    "LEFT OUTER JOIN patient_data AS p ON p.pid = r.patient_id " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\receipts_by_method_report.php (1 hits)
+	Line 113:         "FROM patient_data AS p, form_encounter AS fe WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\referrals_report.php (1 hits)
+	Line 180:     "LEFT OUTER JOIN patient_data AS p ON p.pid = t.pid " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\reports\unique_seen_patients_report.php (1 hits)
+	Line 201:    "FROM patient_data AS p " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\soap_functions\soap_allergy.php (1 hits)
+	Line 153: sqlQuery("update patient_data set soap_import_status=? where pid=?",array('4',$patientid));
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\soap_functions\soap_patientfullmedication.php (1 hits)
+	Line 176: sqlQuery("update patient_data set soap_import_status=? where pid=?",array('2',$pid));
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\interface\super\edit_layout.php (4 hits)
+	Line 136:       if ($layout_id == "DEM") { $tablename = "patient_data"; }
+	Line 182:         if ($layout_id == "DEM") { $tablename = "patient_data"; }
+	Line 237:       if ($layout_id == "DEM") { $tablename = "patient_data"; }
+	Line 260:             if ($layout_id == "DEM") { $tablename = "patient_data"; }
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\ajax\find_patients.php (1 hits)
+	Line 28:   $sql = "SELECT count(*) AS count FROM patient_data WHERE $where";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\ajax\payment_ajax.php (1 hits)
+	Line 134: 	$res = sqlStatement("SELECT pid as id,fname,lname,mname,DOB FROM patient_data
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\amc.php (2 hits)
+	Line 181:     $rez = sqlStatement("SELECT `pid`, `fname`, `lname` FROM `patient_data`");
+	Line 188:     $rez = sqlStatement("SELECT `pid`, `fname`, `lname` FROM `patient_data` " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\appointments.inc.php (1 hits)
+	Line 51:   	"LEFT OUTER JOIN patient_data AS p ON p.pid = e.pc_pid " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\Claim.class.php (19 hits)
+	Line 50:   var $patient_data;      // row from patient_data table
+	Line 50:   var $patient_data;      // row from patient_data table
+	Line 239:     $sql = "SELECT * FROM patient_data WHERE " .
+	Line 242:     $this->patient_data = sqlQuery($sql);
+	Line 255:       $this->patient_data['providerID'] : $provider_id;
+	Line 903:     return x12clean(trim($this->patient_data['lname']));
+	Line 907:     return x12clean(trim($this->patient_data['fname']));
+	Line 911:     return x12clean(trim($this->patient_data['mname']));
+	Line 915:     return x12clean(trim($this->patient_data['street']));
+	Line 919:     return x12clean(trim($this->patient_data['city']));
+	Line 923:     return x12clean(trim($this->patient_data['state']));
+	Line 927:     return x12clean(trim($this->patient_data['postal_code']));
+	Line 931:     $ptphone = $this->patient_data['phone_home'];
+	Line 932:     if (!$ptphone) $ptphone = $this->patient_data['phone_biz'];
+	Line 933:     if (!$ptphone) $ptphone = $this->patient_data['phone_cell'];
+	Line 940:     return str_replace('-', '', $this->patient_data['DOB']);
+	Line 944:     return strtoupper(substr($this->patient_data['sex'], 0, 1));
+	Line 949:     return strtoupper(substr($this->patient_data['status'], 0, 1));
+	Line 955:     return strtoupper(x12clean(trim($this->patient_data['occupation'])));
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\classes\Patient.class.php (1 hits)
+	Line 32: 		$this->_table = "patient_data";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\classes\rulesets\Amc\reports\AMC_304c\Numerator.php (5 hits)
+	Line 22:         if ( (exist_database_item($patient->id,'patient_data','language' ,'','','ge',1)) &&
+	Line 23:              (exist_database_item($patient->id,'patient_data','sex'      ,'','','ge',1)) &&
+	Line 24:              (exist_database_item($patient->id,'patient_data','race'     ,'','','ge',1)) &&
+	Line 25:              (exist_database_item($patient->id,'patient_data','ethnicity','','','ge',1)) &&
+	Line 26:              (exist_database_item($patient->id,'patient_data','DOB'      ,'','','ge',1)) )
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\classes\rulesets\Amc\reports\AMC_304g\Numerator.php (1 hits)
+	Line 22:         $check = sqlQuery("SELECT `allow_patient_portal` FROM `patient_data` WHERE `pid`=?", array($patient->id) );        
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\classes\rulesets\Cqm\reports\NFQ_0024\Numerator2.php (1 hits)
+	Line 21:         $nutrition = sqlQuery("SELECT * FROM `rule_patient_data` " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\classes\rulesets\Cqm\reports\NFQ_0024\Numerator3.php (1 hits)
+	Line 21:         $exercise = sqlQuery("SELECT * FROM `rule_patient_data` " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\classes\rulesets\Cqm\reports\NFQ_0028b\Numerator.php (1 hits)
+	Line 28:                 $smoke_cess = sqlQuery("SELECT * FROM `rule_patient_data` " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\classes\WSClaim.class.php (3 hits)
+	Line 54:       "FROM form_encounter AS e, patient_data AS pd " .
+	Line 213:     $sql = "SELECT foreign_id from integration_mapping as im LEFT JOIN patient_data as pd on im.local_id=pd.id where pd.pid = '" . $this->patient_id . "' and im.local_table='patient_data' and im.foreign_table='customer'";
+	Line 213:     $sql = "SELECT foreign_id from integration_mapping as im LEFT JOIN patient_data as pd on im.local_id=pd.id where pd.pid = '" . $this->patient_id . "' and im.local_table='patient_data' and im.foreign_table='customer'";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\clinical_rules.php (5 hits)
+	Line 47:       echo "<a href='../rules/patient_data.php?category=" .
+	Line 269:       $rez = sqlStatement("SELECT `pid` FROM `patient_data`");
+	Line 276:       $rez = sqlStatement("SELECT `pid` FROM `patient_data` " .
+	Line 1377: // Function to check for existance of data for a patient in the rule_patient_data table
+	Line 1392:   $table = 'rule_patient_data';
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\coding.inc.php (3 hits)
+	Line 341:         "FROM patient_data, prices WHERE " .
+	Line 342:         "patient_data.pid = '$pid' AND " .
+	Line 345:         "prices.pr_level = patient_data.pricelevel " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\custom_template\custom_template.php (1 hits)
+	Line 170:                                         $row = sqlQuery("SELECT * FROM patient_data WHERE pid=?",array($pid));
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\dated_reminder_functions.php (3 hits)
+	Line 61:             $pSQL = sqlStatement("SELECT pd.title ptitle, pd.fname pfname, pd.mname pmname, pd.lname plname FROM `patient_data` pd WHERE pd.pid = ?",array($drRow['pid']));  
+	Line 286:   $pSQL = sqlStatement("SELECT pd.title ptitle, pd.fname pfname, pd.mname pmname, pd.lname plname FROM `patient_data` pd WHERE pd.pid = ?",array($patientID));  
+	Line 365:           $pSQL = sqlStatement("SELECT pd.title ptitle, pd.fname pfname, pd.mname pmname, pd.lname plname FROM `patient_data` pd WHERE pd.id = ?",array($drRow['pid']));  
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\freeb\Patient.class.php (19 hits)
+	Line 122: 		$sql = "SELECT * FROM patient_data where pid = '" . $key . "'";
+	Line 155: 		$sql = "SELECT * FROM patient_data where pid = '" . $key . "'";
+	Line 189: 		$sql = "SELECT * FROM patient_data where pid = '" . $key . "'";
+	Line 223: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 258: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 292: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 326: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 396: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 434: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 473: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 543: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 597: 		$sql = "SELECT * FROM patient_data where pid = '" . $key . "'";
+	Line 638: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 678: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 719: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 760: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 801: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 841: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+	Line 1133: 		$sql = "SELECT * FROM patient_data where pid = '" . $_SESSION['patient_id'] . "'";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\freeb\Procedure.class.php (1 hits)
+	Line 1025: 		$sql = "SELECT * FROM patient_data where pid = '" . $key . "'";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\reminders.php (2 hits)
+	Line 93:     $rez = sqlStatement("SELECT `pid` FROM `patient_data`");
+	Line 208:     $sql = "SELECT `fname`, `lname`, `email`, `phone_home`, `hipaa_voice`, `hipaa_allowemail` from `patient_data` where `pid`=?";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\library\sl_eob.inc.php (4 hits)
+	Line 75:       $pres = sqlStatement("SELECT pid FROM patient_data WHERE " .
+	Line 453:     $pdrow = sqlQuery("SELECT patient_data.pid " .
+	Line 454:       "FROM integration_mapping, patient_data WHERE " .
+	Line 457:       "patient_data.id = integration_mapping.local_id");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\modules\sms_email_reminder\batch_phone_notification.php (1 hits)
+	Line 160: 			openemr_postcalendar_events as ope ,patient_data as pd 
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\modules\sms_email_reminder\cron_functions.php (1 hits)
+	Line 262: 			openemr_postcalendar_events as ope ,patient_data as pd 
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\myportal\soap_service\server_audit.php (8 hits)
+	Line 55: 			$qry = "DELETE from  patient_data WHERE pid=?";
+	Line 116: 	$validtables = array("patient_data","employer_data","insurance_data","history_data","openemr_postcalendar_events","ar_session");
+	Line 138: 				  if($table=='patient_data'){
+	Line 139: 					$newdata['patient_data'][$rowfield['field_name']]=$rowfield['field_value'];
+	Line 169: 			    if($table=='patient_data'){
+	Line 170: 			       $pdrow = sqlQuery("SELECT id from patient_data WHERE pid=?",array($pid));
+	Line 171: 			       $newdata['patient_data']['id']=$pdrow['id'];
+	Line 172: 			       updatePatientData($pid,$newdata['patient_data']);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\myportal\soap_service\server_existingpatient.php (9 hits)
+	Line 50:                " from ((form_encounter AS f, patient_data AS p) " .
+	Line 89:                 " from ((form_encounter AS f, patient_data AS p) " .
+	Line 117:              on u.id =fe.".$provider." join patient_data pd on pd.pid=fe.pid where 
+	Line 193:             $query= "select MAX(pid)+1 AS pid  from patient_data ";
+	Line 208:             $query="select  *, DATE_FORMAT(DOB,'%Y-%m-%d') as DOB_YMD from patient_data where pid=? order by date DESC limit 0,1 ";
+	Line 322:             $query="select count(*) AS count from patient_data where pubpid = ? $string_query";
+	Line 340:             $query="select  ss,DOB  from patient_data where DOB=? $string_query  ";
+	Line 507:             $query="select * from patient_data where pid=?";
+	Line 557:             $query = "SELECT fname FROM patient_data WHERE pid=?";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\myportal\soap_service\server_med_rec.php (1 hits)
+	Line 261: 	    // printRecDataOne($patient_data_array, getRecPatientData ($pid), $N);
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\myportal\soap_service\server_newpatient.php (6 hits)
+	Line 57:             $query = "SELECT fname FROM patient_data WHERE pid=?";
+	Line 61:             $query= "select MAX(pid)+1 AS pid  from patient_data ";
+	Line 74:             $query="select  *, DATE_FORMAT(DOB,'%Y-%m-%d') as DOB_YMD from patient_data where pid=? order by date DESC limit 0,1 ";
+	Line 122:             $query="select count(*) AS count from patient_data where pubpid = ?";
+	Line 128:             $query="select  ss,DOB  from patient_data where DOB=?";
+	Line 250:             $query="select * from patient_data where pid=?";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\myportal\soap_service\server_oemruser.php (6 hits)
+	Line 85:             $query= "select MAX(pid)+1 AS pid  from patient_data ";
+	Line 101:             $query="select  *, DATE_FORMAT(DOB,'%Y-%m-%d') as DOB_YMD from patient_data where pid=? order by date DESC limit 0,1 ";
+	Line 156:             $query="select *,audit_master.id as audit_master_id from audit_master,patient_data where audit_master.pid=patient_data.pid and
+	Line 156:             $query="select *,audit_master.id as audit_master_id from audit_master,patient_data where audit_master.pid=patient_data.pid and
+	Line 175:             $query="select * from audit_master,patient_data,audit_details where audit_master.pid=patient_data.pid and
+	Line 175:             $query="select * from audit_master,patient_data,audit_details where audit_master.pid=patient_data.pid and
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\myportal\soap_service\server_side.php (5 hits)
+	Line 273: 		$patient_data=$var['patient_data'];
+	Line 273: 		$patient_data=$var['patient_data'];
+	Line 275: 		updatePatientData($pid,$patient_data,$create);
+	Line 709: 		    $prow = sqlQuery("SELECT MAX(pid)+1 AS pid FROM patient_data");
+	Line 718: 		  $portal = sqlQuery("SELECT allow_patient_portal FROM patient_data WHERE pid=?",array($pid));
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\patients\add_edit_event_user.php (2 hits)
+	Line 511:    sqlStatement("UPDATE patient_data SET DOB = '$patient_dob' WHERE " .
+	Line 636:    "FROM patient_data WHERE pid = '" . $patientid . "'");
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\patients\get_patient_info.php (1 hits)
+	Line 80: 		$sql = "SELECT * FROM `patient_data` WHERE `pid` = ?";
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\sites\default\LBF\LBFathbf.plugin.php (1 hits)
+	Line 20:   $ptrow = sqlQuery("SELECT DOB, sex FROM patient_data WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\sites\default\LBF\LBFvbf.plugin.php (1 hits)
+	Line 133:   $ptrow = sqlQuery("SELECT DOB, sex FROM patient_data WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\sites\dev\LBF\LBFathbf.plugin.php (1 hits)
+	Line 20:   $ptrow = sqlQuery("SELECT DOB, sex FROM patient_data WHERE " .
+  C:\dev\OpenEMR\Source\MyOpenEMR\desktopOpenemr\openemr\sites\dev\LBF\LBFvbf.plugin.php (1 hits)
+	Line 133:   $ptrow = sqlQuery("SELECT DOB, sex FROM patient_data WHERE " .

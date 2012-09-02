@@ -1,0 +1,17 @@
+
+-- person to address
+select * from person 
+inner join contact on contact.source_table_id = person.person_id and contact.source_table = 'person'
+inner join contact_to_contact_address on contact.contact_id = contact_to_contact_address.contact_id
+inner join contact_address on contact_address.contact_address_id = contact_to_contact_address.contact_address_id
+
+
+select * from person 
+inner join contact as person_secondary_contact_contact on person_secondary_contact_contact.source_table_id = person_secondary_contact_person.person_id and contact.source_table = 'person'
+inner join contact_to_contact_telephone  as person_secondary_contact_contact_to_contact_telephone on person_secondary_contact_contact_to_contact_telephone.contact_id = contact.contact_id
+inner join contact_telephone as as person_secondary_contact_telephone on contact_to_contact_telephone.contact_telephone_id = contact_telephone.contact_telephone_id
+
+
+Telephone
+inner join contact_to_contact_telephone on contact_to_contact_telephone.contact_id = contact.contact_id
+inner join contact_telephone as contact_telephone_home on contact_to_contact_telephone.contact_telephone_id = contact_telephone.contact_telephone_id
